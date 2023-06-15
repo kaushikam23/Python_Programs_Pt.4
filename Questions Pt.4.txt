@@ -1,0 +1,15 @@
+﻿Classes and Objects, Classes and Functions, Classes and Methods
+
+
+1. Consider a user defined class called Time that records the time of the day. Create a new Time object and assign attributes for hours, minutes and seconds. Write a function called print_time that takes a Time object and prints it in the form hour:minute:second. Write a boolean function called is_after that takes two Time objects, t1 and t2, and returns True if t1 follows t2 chronologically and False otherwise. Write a function called increment which adds a given number of seconds to a Time object. 
+
+
+2. Write an __init__ method for the Point class that takes x and y as optional parameters and assigns them to the corresponding attributes. Write an add method for Points that works with either a Point object or a tuple. If the second operand is a Point, the method should return a new Point whose x coordinate is the sum of the x coordinates of the operands, and likewise for the y coordinates. If the second operand is a tuple, the method should add the first element of the tuple to the x coordinate and the second element to the y coordinate, and return a new Point with the result. 
+
+
+3. Consider a user defined class called Point. Write a function called distance that takes two Points as arguments and returns the distance between them.
+
+
+
+
+4. Write Pythonic code to create a function named move_rectangle that takes an object Rectangle and two numbers named dx and dy. It should change the location of the Rectangle by adding dx to the x coordinate of corner and adding dy  to the y coordinate of corner.
